@@ -614,3 +614,252 @@
     padding-left: 0;
   }
   
+
+  /*change heading size in welcome-callout*/
+div#welcome-callout h2 {
+  font-size: 1em;
+}
+
+.usa-accordion-bordered button.usa-button-unstyled {
+  position: relative;
+  display: flex;
+  padding: 15px 55px 17px 15px;
+} 
+.usa-accordion-bordered button[aria-expanded=false]:after, .usa-accordion-bordered button[aria-expanded=true]:after {
+  position: absolute;
+  right: 10px;
+}
+figure{
+margin-bottom: 20px;
+}
+
+#welcome-callout article.callout.content-item a {
+  font-size: 18px;
+}
+
+.sg-question input[title="Where do you live?"] {
+  width: 33%;
+}
+
+.sg-body p {
+  font-size: 1.9rem!important;
+}
+
+.sg-body h4, .sg-body h5, .sg-body h6 {
+  margin-bottom: 12px !important;
+}
+
+.sg-body h4 {
+  font-size: 1.3em !important;
+}
+
+.sg-body h1, .sg-body h2:not(.sg-page-title), .sg-body h3, .sg-body h4, .sg-body h5, .sg-body h6 {
+  font-family: "Nunito Sans","Helvetica","Roboto",Arial,sans-serif !important;
+  font-weight: 900 !important;
+}
+
+legend, .sg-type-radio .sg-question-title, .sg-comment-title label {
+  font-size: 1.2em;
+}
+.sg-type-checkbox ul.sg-list input.sg-input-checkbox[title="Other - Write In"], .sg-type-radio ul.sg-list input.sg-input-radio[title="Other - Write In"] {
+  top: .5em !important;
+  margin-bottom: 0;
+}
+
+.sg-type-checkbox ul.sg-labels-right label, .sg-type-radio ul.sg-labels-right label {
+  margin-bottom: 10px;
+}
+
+.sg-question input[type=text].sg-input-text-other {
+  margin-top: 10px!important;
+}
+
+.ballard-wrapper label, .grayform label, .welcome label, .sg-question-title, .thankyou label, .exit label, legend, .sg-type-radio .sg-question-title, .sg-comment-title label {
+  font-weight: bold;
+  font-family: "Hind","Helvetica","Roboto",Arial,sans-serif !important;
+  font-style: normal;
+}
+.sg-instructions {
+  font-weight: normal;
+  font-family: "Hind","Helvetica","Roboto",Arial,sans-serif !important;
+  font-style: normal;
+}
+
+.sg-wrapper {
+  border: none;
+  padding: 0;
+}
+
+.sg-button-bar {
+  text-align: center!important;
+}
+
+/*Creates emphasized h4 tag on survery*/
+.emphasized-section h4 {
+  background-color: #2a7997;
+  color: white!important;
+  padding: 15px;
+}
+
+/*Creates larger p tag on emphasized portion of survery*/
+.emphasized-section p {
+  font-size: 2.1rem!important;
+}
+
+article.widget-translate p {
+  margin-bottom: 12px;
+}
+
+article.widget-header h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+
+img.accordion-icon {
+  margin-right: 12px;
+}
+
+.icon-accordion {
+  text-indent: -60px;
+  padding-left: 60px;
+}
+
+input#sgE-6417131-1-45-10287-other {
+margin-bottom: 4px;
+}
+
+input#sgE-6417131-1-45-10287, input#sgE-6417131-1-38-10209, input#sgE-6417131-1-40-10226, input#sgE-6417131-1-42-10257 {
+margin-top: 6px;
+}
+
+/*full map css*/
+div#full-map {
+  margin-top: 60px;
+}
+
+/*Style table head*/
+table thead th {
+  background-color: #2a7997;
+  color: white;
+  text-align: center;
+}
+
+/*Increase table cell padding*/
+table th, table td {
+  padding: 1.2rem;
+}
+
+/*Increase heading size*/
+strong, b {
+  font-size: 2.5rem;
+}
+
+/*Decrease table cell padding*/
+table th, table td {
+  padding: 1rem;
+}
+
+/*Align thumbnail center and reduce width*/
+.thumbnail {
+  text-align: center;
+  max-width: fit-content;
+}
+
+/*P margin in table*/
+td p {
+  margin: 0;
+}
+
+/*Color table headings*/
+tr.table-heading {
+  background-color: #f1f1f1;
+}
+
+/*Survey CSS*/
+
+/*Reduce width of map*/
+a.thumbnail.survey-map {
+  max-width: 67%;
+}
+
+table.survey{
+min-width: 66%;
+}
+
+table.survey td {
+  padding:  0.5rem;
+}
+
+table.survey p {
+  margin:  0 0 0.3rem;
+}
+
+/*Custom Table Media Queries*/
+@media screen and (max-width: 414px) {
+  td p {
+      font-size: 1.4rem;
+  }
+  table th, table td {
+  padding: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width:  768px) {
+.sg-question input[type=text].sg-input-text-other {
+    margin-top: 4px!important;
+    margin-bottom: 16px;
+    max-width: 50%;
+}
+
+/*Resize p tag in emphasized section of survey*/
+.emphasized-section p {
+    font-size: 1.9rem!important;
+}
+}
+.widget-translate .html-widget-body a, .widget-translate .html-widget-body span{
+color: #fff;
+}
+.widget-translate .html-widget-body span[data-toggle="modal"]{
+text-decoration: none;
+}
+.widget-translate .html-widget-body span[data-toggle="modal"]:hover{
+text-decoration: underline !important;
+}
+/*Site heading media queries*/
+@media screen and (max-width: 460px) {
+  article.widget-header h1 {
+  font-size: 4rem;
+  }
+  @media screen and (max-width:  370px) {
+    article.widget-header h1 {
+      font-size: 3rem;
+      }
+  }
+}
+
+@media screen and (max-width:  320px) {
+.sg-question input[type=text].sg-input-text-other {
+    max-width: 100%;
+}
+}
+
+
+    /* new css 2023 */
+
+    .language-links-header {
+      color:#ffff !important;
+      text-decoration: none;
+    
+    }
+    .language-links-header a {
+  color:#ffff !important;
+  text-decoration: none;
+}
+
+.language-links-header a:hover {
+  text-decoration: underline;
+}
