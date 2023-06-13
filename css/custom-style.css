@@ -1,4 +1,6 @@
-
+[aria-hidden="true"] {
+  display: inline-block;
+}
 
 .position-container {
     position: relative;
